@@ -1,0 +1,36 @@
+footer#footer {
+  margin-top: 30px;
+  padding-top: 25px;
+  border-top: 1px solid #000;
+  h2 {
+    font-size: 24px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .footermeubox {
+    margin-left: 20px;
+  }
+  ul {
+    display: grid;
+    gap: 10px;
+  }
+  ul li a {
+    font-size: 18px !important;
+    color: #000;
+  }
+  ul li:hover a {
+    color: red;
+  }
+  img {
+    max-width: 60% !important;
+    margin: auto;
+    text-align: center;
+  }
+}
+.footerbottom {
+  border-top: 1px solid #000;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+}

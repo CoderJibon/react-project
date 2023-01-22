@@ -1,0 +1,23 @@
+#header {
+  border: 1px solid #000;
+  img {
+    max-width: 70%;
+  }
+
+  ul li {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    margin-right: 10px;
+    margin-left: 10x;
+  }
+  ul li a {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+  }
+  ul li:hover a {
+    border-bottom: 1px solid #000;
+    color: red;
+  }
+}
